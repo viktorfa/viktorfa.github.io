@@ -2,4 +2,4 @@ deployment:
   prod:
     branch: master
     commands:
-      - aws s3 sync jekyll/_site s3://fitta-di-jekyll --delete
+      - aws s3 sync _site s3://fitta-di-jekyll --delete
